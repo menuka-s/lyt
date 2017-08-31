@@ -1,0 +1,27 @@
+.header{
+  height: 70px;
+  background-color: #003f72;
+}
+
+.header-title{
+  font-size: 24px;
+  color: #fff;
+  line-height: 70px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.header-link{
+  font-size: 20px;
+  color: #fff;
+  line-height: 70px;
+  vertical-align: middle;
+}
+
+
+.footer{
+  background-color: #F2F2F2;
+  height: 150px;
+
+  padding-top: 30px;
+}

@@ -1,5 +1,4 @@
 .home-panel{
-  margin-top: 30px;
   margin-bottom: 30px;
 }
 
@@ -19,9 +18,15 @@
 
 }
 
-.test{
-  height: 500px;
+.card-deck-container{
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
+
+.card-img-size-fit{
+  width: 100%;
+  height: auto;
+ }
 
 
 /*Parallax*/
