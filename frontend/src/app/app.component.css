@@ -1,6 +1,5 @@
-.header{
-  height: 70px;
-  background-color: #003f72;
+.main-header{
+  background-color: #323232;
 }
 
 .header-title{
@@ -24,4 +23,12 @@
   height: 150px;
 
   padding-top: 30px;
+}
+
+
+@media (min-width: 992px){
+  .navbar-toggleable-md .navbar-nav .nav-link{
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
 }
