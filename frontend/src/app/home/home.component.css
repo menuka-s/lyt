@@ -1,45 +1,126 @@
-.home-panel{
-  margin-bottom: 30px;
-}
-
-.banner-image-container{
-  width: 100%;
-  height: 500px;
-}
-
-.banner-image-text{
-  position: absolute;
-  width: 100%;
-  text-align: center;
-  font-size: 40px;
-  line-height: 500px;
-  vertical-align: middle;
-  color: #fff;
-
-}
-
-.card-deck-container{
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-.card-img-size-fit{
-  width: 100%;
-  height: auto;
- }
-
-
-/*Parallax*/
-*[parallax] {
-  width: 100%;
-  height: 500px;
-
-  background-size: 125%;
-}
-
-#banner-image {
-  background-image: linear-gradient(
-    rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)
-    ), url('http://i.imgur.com/ABitI6n.jpg');
+@media (min-width: 992px) {
+  .home-panel{
+    margin-bottom: 30px;
   }
+
+  .banner-image-container{
+    width: 100%;
+    height: 400px;
+  }
+
+  .banner-image-text{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 60px;
+    line-height: 400px;
+    vertical-align: middle;
+    color: #fff;
+
+  }
+
+  .card-deck-container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .card-img-size-fit{
+    width: 100%;
+    height: auto;
+  }
+
+
+  /*Parallax*/
+  *[parallax] {
+    width: 100%;
+    height: 400px;
+
+    background-size: 125%;
+  }
+
+  #banner-image {
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+      ), url('http://i.imgur.com/ABitI6n.jpg');
+  }
+
+}
+
+@media (max-width: 992px) {
+  .home-panel{
+    margin-bottom: 3vw;
+  }
+
+  .banner-image-container{
+    width: 100vw;
+    height: 40vw;
+  }
+
+  .banner-image-text{
+    position: absolute;
+    width: 100vw;
+    text-align: center;
+    font-size: 6vw;
+    line-height: 40vw;
+    vertical-align: middle;
+    color: #fff;
+  }
+
+  .card-deck-container{
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+  }
+
+  .card-img-size-fit{
+    width: 100%;
+    height: auto;
+  }
+
+
+  /*Parallax*/
+  *[parallax] {
+    width: 100vw;
+    height: 40vw;
+
+    background-size: 125vw;
+  }
+
+  #banner-image {
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+      ), url('http://i.imgur.com/ABitI6n.jpg');
+  }
+
+
+  .card {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    margin-bottom: 5em;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+
+  .card-deck{
+    display: initial;
+    display: initial;
+    display: initial;
+    display: initial;
+    -webkit-flex-flow: initial;
+    -ms-flex-flow: initial;
+    flex-flow: initial;
+  }
+
+}
