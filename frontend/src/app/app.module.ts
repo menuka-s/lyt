@@ -11,10 +11,13 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 //App Component Imports
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
+import { AboutComponent } from './about/about.component';
+
 
 //Routes
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
+  { path: 'about', component: AboutComponent },
 ];
 
 //NgModule
@@ -22,6 +25,7 @@ const appRoutes: Routes = [
   declarations: [
     AppComponent,
     HomeComponent,
+    AboutComponent,
     Parallax
   ],
   imports: [

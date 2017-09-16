@@ -1,16 +1,24 @@
-<div class="home-panel">
-  <div class="grid">
-    <div class="row">
-      <div class="col-sm-12">
-        <div class="banner-image-container">
-          <div class="banner-image-text">
-            Welcome to LYT Systems Inc!
-          </div>
-          <div parallax id="banner-image" [config]="{parallaxInitVal: -100, parallaxRatio: .7}"></div>
-        </div>
+<div class="carousel-container">
+  <ngb-carousel>
+    <ng-template ngbSlide>
+        <img class="carousel-img" src="https://lorempixel.com/900/500?r=1" alt="Random first slide">
+      <div class="carousel-caption">
+        <div class="carousel-title">Welcome to LYT Systems, Inc.</div>
       </div>
-    </div>
-  </div>
+    </ng-template>
+    <ng-template ngbSlide>
+        <img class="carousel-img" src="https://lorempixel.com/900/500?r=2" alt="Random second slide">
+      <div class="carousel-caption">
+        <div class="carousel-title">Welcome to LYT Systems, Inc.</div>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <img class="carousel-img" src="https://lorempixel.com/900/500?r=3" alt="Random third slide">
+      <div class="carousel-caption">
+        <div class="carousel-title">Welcome to LYT Systems, Inc.</div>
+      </div>
+    </ng-template>
+  </ngb-carousel>
 </div>
 
 <div class="container card-deck-container">
@@ -37,6 +45,21 @@
         <h4 class="card-title">Card title</h4>
         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="home-panel">
+  <div class="grid">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="banner-image-container">
+          <div class="banner-image-text">
+            Sample Text Paragraph. Here is a sample paragraph to show the text over the parallax component. Here is some more text. Text. Lorem Ipsum.
+          </div>
+          <div parallax id="banner-image" [config]="{parallaxInitVal: -100, parallaxRatio: .7}"></div>
+        </div>
       </div>
     </div>
   </div>

@@ -17,6 +17,10 @@
   vertical-align: middle;
 }
 
+.partial-content{
+  min-height: 57vh;
+}
+
 .footer{
   background-color: #F2F2F2;
   height: 150px;
@@ -27,12 +31,7 @@
 
 @media (min-width: 992px){
   .navbar-toggleable-md .navbar-nav .nav-link{
-    padding-right: 2rem;
-    padding-left: 2rem;
-  }
-
-  .nav-link{
-    padding-right: 4rem !important;
-    padding-left: 4rem !important;
+    padding-right: 4vw;
+    padding-left: 5vw;
   }
 }
