@@ -3,20 +3,31 @@
           [attr.aria-expanded]="!navbarCollapsed" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <a class="navbar-brand offset-lg-1" href="#">LYT Systems Inc.</a>
+  <a class="navbar-brand offset-lg-1" href="#">LYT Systems, Inc.</a>
   <div class="collapse navbar-collapse" [ngbCollapse]="navbarCollapsed" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
+        <a class="nav-link" href="about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Careers</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Services</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Login</a>
       </li>
     </ul>
   </div>
 </nav>
 
-<router-outlet></router-outlet>
+<div class="partial-content">
+  <router-outlet></router-outlet>
+</div>
 
 <div class="footer">
   <div class="grid">

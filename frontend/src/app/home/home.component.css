@@ -1,45 +1,163 @@
-.home-panel{
-  margin-bottom: 30px;
-}
-
-.banner-image-container{
-  width: 100%;
-  height: 500px;
-}
-
-.banner-image-text{
-  position: absolute;
-  width: 100%;
-  text-align: center;
-  font-size: 40px;
-  line-height: 500px;
-  vertical-align: middle;
-  color: #fff;
-
-}
-
-.card-deck-container{
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-.card-img-size-fit{
-  width: 100%;
-  height: auto;
- }
-
-
-/*Parallax*/
-*[parallax] {
-  width: 100%;
-  height: 500px;
-
-  background-size: 125%;
-}
-
-#banner-image {
-  background-image: linear-gradient(
-    rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)
-    ), url('http://i.imgur.com/ABitI6n.jpg');
+@media (min-width: 992px) {
+  .banner-image-container{
+    width: 100%;
+    height: 400px;
   }
+
+  .banner-image-text{
+    padding-top: 178px;
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+    font-style: italic;
+    position: absolute;
+    padding-left: 175px;
+    padding-right: 175px;
+
+  }
+
+  .carousel-container{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    margin-bottom: 50px;
+  }
+
+  .carousel{
+    height: 500px;
+  }
+
+  .carousel-img{
+    height: 100%;
+    width: 100%;
+  }
+
+  .carousel-caption{
+    height: 500px;
+    padding: 0;
+    bottom: initial;
+  }
+
+  .carousel-title {
+    line-height: 500px;
+    font-size: 60px;
+    vertical-align: middle;
+  }
+
+  .card-deck-container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .card-img-size-fit{
+    width: 100%;
+    height: auto;
+  }
+
+
+  /*Parallax*/
+  *[parallax] {
+    width: 100%;
+    height: 400px;
+    background-size: 250%;
+  }
+
+  #banner-image {
+    background-repeat: no-repeat;
+    background-image: url('http://i.imgur.com/ABitI6n.jpg');
+  }
+
+}
+
+@media (max-width: 992px) {
+  .banner-image-container{
+    width: 100vw;
+    height: 40vw;
+  }
+
+  .banner-image-text{
+    padding-top: 15vw;
+    font-size: 3.0vw;
+    text-align: center;
+    color: #fff;
+    font-style: italic;
+    position: absolute;
+    padding-left: 10.6vw;
+    padding-right: 10.6vw;
+    margin-left: -15px;
+  }
+
+  .carousel-container{
+    width: 100%;
+    margin-bottom: 5vw;
+  }
+
+  .carousel-img{
+    height: 100%;
+    width: 100%;
+  }
+
+  .carousel-caption{
+    height: 100%;
+    padding: 0;
+    bottom: initial;
+    padding-top: 22vw;
+  }
+
+  .carousel-title {
+    font-size: 6vw;
+  }
+
+  .card-deck-container{
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+  }
+
+  .card-img-size-fit{
+    width: 100%;
+    height: auto;
+  }
+
+
+  /*Parallax*/
+  *[parallax] {
+    width: 100vw;
+    height: 40vw;
+    background-size: 300vw;
+  }
+
+  #banner-image {
+    background-image: url('http://i.imgur.com/ABitI6n.jpg');
+  }
+
+
+  .card {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    margin-bottom: 5em;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+
+  .card-deck{
+    display: initial;
+    display: initial;
+    display: initial;
+    display: initial;
+    -webkit-flex-flow: initial;
+    -ms-flex-flow: initial;
+    flex-flow: initial;
+  }
+
+}

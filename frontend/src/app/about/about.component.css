@@ -1,0 +1,15 @@
+.about-container{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.section-title{
+  width: 100%;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.section-content{
+  margin-top: 25px;
+}
