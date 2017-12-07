@@ -71,6 +71,32 @@
   }
 }
 
+@media (max-width: 576px){
+  .footer-header{
+    width: 100%;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 0;
+    margin-bottom: 30px;
+    font-size: 22px;
+    border-bottom: 1px solid black;
+  }
+
+  .footer-icon-container{
+    margin-left: 50px;
+    padding: 0;
+    margin-bottom: 50px;
+  }
+
+  .footer-icon{
+    margin-right: 50px;
+  }
+
+  .footer-link, .footer-link:hover, .footer-link:focus{
+    text-decoration: none;
+  }
+}
+
 
 .dropdown-content {
     display: none;

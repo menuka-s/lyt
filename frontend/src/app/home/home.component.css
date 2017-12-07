@@ -181,6 +181,7 @@
     height: 300px;
     overflow: hidden;
     position: relative;
+    margin-bottom: 50px;
   }
 
   .banner-img{
