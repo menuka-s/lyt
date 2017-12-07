@@ -5,7 +5,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 //Non-CoreAngular  Imports
-import { Parallax, ParallaxConfig } from 'ngx-parallax';
+// import { Parallax, ParallaxConfig } from 'ngx-parallax';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 //App Component Imports
@@ -38,7 +38,7 @@ const appRoutes: Routes = [
     ContactComponent,
     ServicesComponent,
     LoginComponent,
-    Parallax
+    // Parallax
   ],
   imports: [
     BrowserModule,
