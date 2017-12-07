@@ -1,0 +1,28 @@
+.contact-general-btn{
+    background-color: #fff;
+    border: 2px solid #000;
+    color: #000;
+    padding: 15px 20px;
+    border-radius: 0px;
+    margin-top: 40px;
+}
+
+.contact-general-btn:hover{
+    background-color: rgba(0,0,0,.6);
+    border: 2px solid rgba(0,0,0,0.6);
+    color: #fff
+}
+
+.contact-general-btn:focus{
+    background-color: rgba(0,0,0,.6);
+    border: 2px solid rgba(0,0,0,0.6);
+    color: #fff
+}
+
+.send-btn{
+    float: right;
+}
+
+textarea{
+    height: 200px
+}
