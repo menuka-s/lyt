@@ -10,7 +10,7 @@ export class LoginComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    window.scrollTo(0,0);
+    window.scrollTo(0, 0);
   }
 
 }

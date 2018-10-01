@@ -1,14 +1,14 @@
-//Node/CoreAngular Imports
+// Node/CoreAngular Imports
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-//Non-CoreAngular  Imports
+// Non-CoreAngular  Imports
 // import { Parallax, ParallaxConfig } from 'ngx-parallax';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
-//App Component Imports
+// App Component Imports
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
@@ -18,7 +18,7 @@ import { ServicesComponent } from './services/services.component';
 import { LoginComponent } from './login/login.component';
 
 
-//Routes
+// Routes
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'about', component: AboutComponent },
@@ -28,7 +28,7 @@ const appRoutes: Routes = [
   { path: 'login', component: LoginComponent }
 ];
 
-//NgModule
+// NgModule
 @NgModule({
   declarations: [
     AppComponent,
