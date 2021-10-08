@@ -56,11 +56,11 @@
     height: 47.6vw;
   }
 
-  :host /deep/ .carousel-control-next-icon{
+  :host ::ng-deep .carousel-control-next-icon{
     margin-right: -60px;
   }
 
-  :host /deep/ .carousel-control-prev-icon{
+  :host ::ng-deep .carousel-control-prev-icon{
     margin-left: -60px;
   }
 
@@ -149,12 +149,12 @@
     background-image: url('http://i.imgur.com/ABitI6n.jpg');
   }
 
-  :host /deep/ .carousel-control-prev{
+  :host ::ng-deep .carousel-control-prev{
     width: 5.9vw;
     padding-left: 2.9vw;
   }
 
-  :host /deep/ .carousel-control-next{
+  :host ::ng-deep .carousel-control-next{
     width: 5.9vw;
     padding-right: 2.9vw;
   }
@@ -209,11 +209,11 @@
     height: 300px;
   }
 
-  /* :host /deep/ .carousel-control-next-icon{
+  /* :host ::ng-deep .carousel-control-next-icon{
     margin-right: -60px;
   }
 
-  :host /deep/ .carousel-control-prev-icon{
+  :host ::ng-deep .carousel-control-prev-icon{
     margin-left: -60px;
   } */
 
