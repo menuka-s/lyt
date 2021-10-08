@@ -47,7 +47,7 @@
     text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
   } */
 
-  .carousel-img{
+  .carousel-img {
     height: 100%;
     width: 100%;
   }
@@ -56,22 +56,27 @@
     height: 47.6vw;
   }
 
-  :host ::ng-deep .carousel-control-next-icon{
+  :host ::ng-deep .carousel-control-next-icon {
     margin-right: -60px;
   }
 
-  :host ::ng-deep .carousel-control-prev-icon{
+  :host ::ng-deep .carousel-control-prev-icon {
     margin-left: -60px;
   }
 
-  .banner-container{
+  .banner-container {
     width: 100%;
     height: 47.6vw;
     overflow: hidden;
     position: relative;
   }
 
-  .banner-img{
+  .sticky-home-container {
+    top: 0;
+    position: absolute;
+  }
+
+  .banner-img {
     width: 100%;
     height: auto;
     margin-top: -5.9vw;
@@ -79,7 +84,7 @@
     position: absolute;
   }
 
-  .home-title-container{
+  .home-title-container {
     z-index: 1;
     /* border: 3px solid #fff; */
     top: 5.9vw;
@@ -89,10 +94,10 @@
     position: absolute;
   }
 
-  .home-title{
+  .home-title {
     font-size: 4.7vw;
     color: #fff;
-    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
     padding: 1.7vw;
   }
 
@@ -106,36 +111,35 @@
     font-size: 1.2vw;
   }
 
-  .home-container-btn{
-    border: .1vw solid #fff;
+  .home-container-btn {
+    border: 0.1vw solid #fff;
     margin-left: 1.7vw;
     background: transparent;
     color: #fff;
-    padding: .89vw 1.19vw;
+    padding: 0.89vw 1.19vw;
     border-radius: 0px;
     font-size: 1.07vw;
   }
 
-  .home-container-btn:hover{
-    background: rgba(0,0,0,0.6);
+  .home-container-btn:hover {
+    background: rgba(0, 0, 0, 0.6);
     cursor: pointer;
   }
 
-  .home-container-btn:focus{
-    background: rgba(0,0,0,0.9);
+  .home-container-btn:focus {
+    background: rgba(0, 0, 0, 0.9);
     cursor: pointer;
   }
 
-  .card-deck-container{
+  .card-deck-container {
     padding-top: 50px;
     padding-bottom: 50px;
   }
 
-  .card-img-size-fit{
+  .card-img-size-fit {
     width: 100%;
     height: auto;
   }
-
 
   /*Parallax*/
   *[parallax] {
@@ -146,19 +150,18 @@
 
   #banner-image {
     background-repeat: no-repeat;
-    background-image: url('http://i.imgur.com/ABitI6n.jpg');
+    background-image: url("http://i.imgur.com/ABitI6n.jpg");
   }
 
-  :host ::ng-deep .carousel-control-prev{
+  :host ::ng-deep .carousel-control-prev {
     width: 5.9vw;
     padding-left: 2.9vw;
   }
 
-  :host ::ng-deep .carousel-control-next{
+  :host ::ng-deep .carousel-control-next {
     width: 5.9vw;
     padding-right: 2.9vw;
   }
-
 }
 
 @media (max-width: 768px) {
@@ -200,7 +203,7 @@
     font-size: 6vw;
   } */
 
-  .carousel-img{
+  .carousel-img {
     height: 100%;
     width: 100%;
   }
@@ -217,7 +220,7 @@
     margin-left: -60px;
   } */
 
-  .banner-container{
+  .banner-container {
     width: 100%;
     height: 300px;
     overflow: hidden;
@@ -225,24 +228,31 @@
     margin-bottom: 50px;
   }
 
-  .banner-img{
+  .sticky-home-container {
+    top: 0;
+    position: absolute;
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .banner-img {
     width: 100%;
     height: auto;
     z-index: 0;
     position: absolute;
   }
 
-  .home-title-container{
+  .home-title-container {
     z-index: 1;
     position: absolute;
     width: 100%;
     text-align: center;
   }
 
-  .home-title{
+  .home-title {
     font-size: 40px;
     color: #fff;
-    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
     padding: 30px;
   }
 
@@ -250,36 +260,35 @@
     display: none;
   }
 
-  .home-container-btn{
+  .home-container-btn {
     border: 2px solid #fff;
     margin-top: 10px;
-    background: rgba(0,0,0,.7);
+    background: rgba(0, 0, 0, 0.7);
     color: #fff;
     padding: 15px 20px;
     border-radius: 0px;
     font-size: 18px;
   }
 
-  .home-container-btn:hover{
-    background: rgba(0,0,0,0.8);
+  .home-container-btn:hover {
+    background: rgba(0, 0, 0, 0.8);
     cursor: pointer;
   }
 
-  .home-container-btn:focus{
-    background: rgba(0,0,0,1);
+  .home-container-btn:focus {
+    background: rgba(0, 0, 0, 1);
     cursor: pointer;
   }
 
-  .card-deck-container{
+  .card-deck-container {
     padding-top: 5vw;
     padding-bottom: 5vw;
   }
 
-  .card-img-size-fit{
+  .card-img-size-fit {
     width: 100%;
     height: auto;
   }
-
 
   /*Parallax*/
   *[parallax] {
@@ -289,9 +298,8 @@
   }
 
   #banner-image {
-    background-image: url('http://i.imgur.com/ABitI6n.jpg');
+    background-image: url("http://i.imgur.com/ABitI6n.jpg");
   }
-
 
   .card {
     position: relative;
@@ -305,14 +313,14 @@
     -ms-flex-direction: column;
     flex-direction: column;
     background-color: #fff;
-    border: 1px solid rgba(0,0,0,.125);
-    border-radius: .25rem;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
     margin-bottom: 5em;
     margin-right: 0 !important;
     margin-left: 0 !important;
   }
 
-  .card-deck{
+  .card-deck {
     display: initial;
     display: initial;
     display: initial;
@@ -321,5 +329,4 @@
     -ms-flex-flow: initial;
     flex-flow: initial;
   }
-
 }
