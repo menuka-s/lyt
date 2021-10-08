@@ -44,7 +44,7 @@ const appRoutes: Routes = [
     BrowserModule,
     BrowserAnimationsModule,
     NgbModule.forRoot(),
-    RouterModule.forRoot(appRoutes),
+    RouterModule.forRoot(appRoutes, { relativeLinkResolution: 'legacy' }),
   ],
   providers: [],
   bootstrap: [AppComponent]
